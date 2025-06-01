@@ -5,10 +5,14 @@
 #include "source/Meal.h"
 #include "source/DiningHall.h"
 #include "source/Admin.h"
+#include "source/Panel.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    Panel program;
+
+    program.action(0);
+
     return 0;
 }
