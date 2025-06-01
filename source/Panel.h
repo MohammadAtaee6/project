@@ -1,6 +1,6 @@
 #include <iostream>
 #include "SessionManager.h"
-using namespace StudentSession;
+using namespace StudentSessionNS;
 using namespace std;
 
 class Panel{
@@ -19,7 +19,6 @@ public:
 
 void Panel::login()
 {
-        StudentSession stu;
     string name;
     string password;
 
@@ -29,6 +28,7 @@ void Panel::login()
     cout << "enter the password : " << endl;
     getline(cin, password);
 
+     StudentSession stu;
 
     if(stu.login(name, password))
     {

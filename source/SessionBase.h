@@ -1,20 +1,22 @@
+#pragma once
 #include <iostream>
 using namespace std;
 
 #include <fstream>
 
-public SessionBase
+class SessionBase
 {
 private:
     time_t created_at, lastTimeLogin;
     bool sessionStatus;
 
 public:
-    virtual void load_session();
+    virtual ~SessionBase() = default;  // Important for polymorphism
+    virtual void load_session() = 0;
 
-    virtual void save_session();
+    virtual void save_session() = 0;
 
-    virtual void login(string, string, string);
+    virtual bool login(string, string, string);
 
     virtual void logout();
 

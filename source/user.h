@@ -10,8 +10,9 @@ private:
     int userId;
 
 public:
-    virtual void print();
-    virtual void gettype();
+     virtual ~user() = default;  // Important
+    virtual void print() const {};
+    virtual string gettype() const { return "user"; };
 
 //setters:
 void setName(string n)
