@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 
 using namespace std;
@@ -7,6 +8,8 @@ private:
     int mealId;
     string name;
     float price;
+    bool isActive;
+
 
     public:
 // setters:

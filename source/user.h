@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 
 using namespace std;
@@ -9,7 +10,7 @@ private:
     int userId;
 
 public:
-    virtual void print():const;
+    virtual void print();
     virtual void gettype();
 
 //setters:

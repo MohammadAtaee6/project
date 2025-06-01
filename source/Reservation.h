@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include "DiningHall.h"
 #include "Meal.h"
@@ -7,11 +8,13 @@ class  Reservation
 {
 private:
     int reservationId;
+    Student student;
     DiningHall dHall;
     Meal meal;
     time_t createdAt;
   public:
 // setters:
+
     void setReservationId(int id)
     {
         reservationId = id;
