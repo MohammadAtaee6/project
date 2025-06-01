@@ -1,25 +1,13 @@
-#include <iostream>
-#include "SessionManager.h"
+#include<iostream>
+#include "../Panel.h"
+#include "../SessionManager.h"
 using namespace StudentSession;
+
 using namespace std;
-
-class Panel{
-private:
-
-public:
-    void action(int pageNum)
-    {
-        if(pageNum == 0){
-            login();
-        }
-
-    }
-    void login();
-};
 
 void Panel::login()
 {
-        StudentSession stu;
+    StudentSession stu;
     string name;
     string password;
 

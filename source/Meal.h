@@ -10,6 +10,12 @@ private:
     float price;
     bool isActive;
 
+    enum mealType{
+        BREAKFAST,
+        LUNCH,
+        DINNER
+    };
+
 
     public:
 // setters:

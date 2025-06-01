@@ -1,0 +1,14 @@
+{
+    "is_admin" : false,
+
+    "name" : "",
+    "last_name": "",
+    "hashed_password": "",
+
+    "student_id": "",
+    "phone" : "",
+    "email" : "",
+    "balance" : "",
+    "isActive" : false,
+    "Reserves" : {},
+}

@@ -1,0 +1,122 @@
+ [
+        {
+            {"student_id", "S1001"},
+            {"id", 1001},
+            {"name", "Ali"},
+            {"last_name", "Mohammadi"},
+            {"balance", 1250.50},
+            {"active", true},
+            {"email", "ali.m@university.edu"},
+            {"password", "Ali@1234"},
+            {"phone", "09121112233"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1002"},
+            {"id", 1002},
+            {"name", "Reza"},
+            {"last_name", "Ahmadi"},
+            {"balance", 800.25},
+            {"active", true},
+            {"email", "reza.a@university.edu"},
+            {"password", "Reza@5678"},
+            {"phone", "09123334455"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1003"},
+            {"id", 1003},
+            {"name", "Sara"},
+            {"last_name", "Hosseini"},
+            {"balance", 1500.75},
+            {"active", true},
+            {"email", "sara.h@university.edu"},
+            {"password", "Sara@9101"},
+            {"phone", "09125556677"},
+            {"is_admin", true}
+        },
+        {
+            {"student_id", "S1004"},
+            {"id", 1004},
+            {"name", "Maryam"},
+            {"last_name", "Kazemi"},
+            {"balance", 500.00},
+            {"active", false},
+            {"email", "maryam.k@university.edu"},
+            {"password", "Maryam@1122"},
+            {"phone", "09127778899"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1005"},
+            {"id", 1005},
+            {"name", "Amir"},
+            {"last_name", "Naseri"},
+            {"balance", 2000.00},
+            {"active", true},
+            {"email", "amir.n@university.edu"},
+            {"password", "Amir@3344"},
+            {"phone", "09129990011"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1006"},
+            {"id", 1006},
+            {"name", "Fatemeh"},
+            {"last_name", "Rahimi"},
+            {"balance", 750.30},
+            {"active", true},
+            {"email", "fatemeh.r@university.edu"},
+            {"password", "Fatemeh@5566"},
+            {"phone", "09121113344"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1007"},
+            {"id", 1007},
+            {"name", "Hossein"},
+            {"last_name", "Zare"},
+            {"balance", 0.00},
+            {"active", false},
+            {"email", "hossein.z@university.edu"},
+            {"password", "Hossein@7788"},
+            {"phone", "09124445566"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1008"},
+            {"id", 1008},
+            {"name", "Narges"},
+            {"last_name", "Gholami"},
+            {"balance", 3000.50},
+            {"active", true},
+            {"email", "narges.g@university.edu"},
+            {"password", "Narges@9900"},
+            {"phone", "09126667788"},
+            {"is_admin", true}
+        },
+        {
+            {"student_id", "S1009"},
+            {"id", 1009},
+            {"name", "Mehdi"},
+            {"last_name", "Farsi"},
+            {"balance", 450.75},
+            {"active", true},
+            {"email", "mehdi.f@university.edu"},
+            {"password", "Mehdi@1122"},
+            {"phone", "09128889900"},
+            {"is_admin", false}
+        },
+        {
+            {"student_id", "S1010"},
+            {"id", 1010},
+            {"name", "Zahra"},
+            {"last_name", "Yousefi"},
+            {"balance", 1200.00},
+            {"active", true},
+            {"email", "zahra.y@university.edu"},
+            {"password", "Zahra@3344"},
+            {"phone", "09120001122"},
+            {"is_admin", false}
+        }
+]

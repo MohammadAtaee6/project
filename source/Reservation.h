@@ -8,9 +8,12 @@ class  Reservation
 {
 private:
     int reservationId;
-    Student student;
+    //Student student;
     DiningHall dHall;
     Meal meal;
+    enum status{
+        SUCCEESS, CANCELED, FAILED, NOT_PAID
+    };
     time_t createdAt;
   public:
 // setters:
